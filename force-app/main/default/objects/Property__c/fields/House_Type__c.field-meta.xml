@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>House_Type__c</fullName>
+    <description>No. of Bed and Bath. Each has a Hall and Kitchen</description>
+    <inlineHelpText>No. of Bed and Bath. Every type has a Hall and a Kitchen</inlineHelpText>
+    <label>House Type</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>1Bed 1Bath</fullName>
+                <default>false</default>
+                <label>1Bed 1Bath</label>
+            </value>
+            <value>
+                <fullName>2Bed 1Bath</fullName>
+                <default>false</default>
+                <label>2Bed 1Bath</label>
+            </value>
+            <value>
+                <fullName>2Bed 2Bath</fullName>
+                <default>false</default>
+                <label>2Bed 2Bath</label>
+            </value>
+            <value>
+                <fullName>3Bed 2Bath</fullName>
+                <default>false</default>
+                <label>3Bed 2Bath</label>
+            </value>
+            <value>
+                <fullName>4Bed 2Bath</fullName>
+                <default>false</default>
+                <label>4Bed 2Bath</label>
+            </value>
+            <value>
+                <fullName>5Bed 3Bath</fullName>
+                <default>false</default>
+                <label>5Bed 3Bath</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

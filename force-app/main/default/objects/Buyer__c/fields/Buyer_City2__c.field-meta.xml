@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Buyer_City2__c</fullName>
+    <description>Buyer&apos;s City</description>
+    <displayLocationInDecimal>false</displayLocationInDecimal>
+    <inlineHelpText>Enter the City of the Buyer</inlineHelpText>
+    <label>Buyer City2</label>
+    <required>false</required>
+    <scale>2</scale>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Location</type>
+</CustomField>
